@@ -15,15 +15,12 @@
     <module>eureka-server</module>
     <module>clients</module>
     <module>notification</module>
-      <module>apigw</module>
-
-      <!--    <module>apigw</module>-->
-<!--    <module>amqp</module>-->
+    <module>apigw</module>
+    <module>amqp</module>
   </modules>
 
 
   <name>my-app</name>
-  <!-- FIXME change it to the project's website -->
   <url>https://www.example.com</url>
 
   <properties>
@@ -63,10 +60,6 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-openfeign</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
