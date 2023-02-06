@@ -9,7 +9,7 @@ import org.springframework.context.annotation.PropertySources;
 
 @SpringBootApplication(
         scanBasePackages = {
-                "com.mycompany.customer",
+                "com.mycompany.app",
                 "com.mycompany.amqp",
         }
 )
